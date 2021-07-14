@@ -29,11 +29,11 @@ pages:
             name: MUSHRA - Random 2
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: configs/resources/samples/S1-MTG.wav
+            reference: configs/resources/samples/S1-M19.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/samples/S1-MTG.wav     
+                C1: configs/resources/samples/S1-M19.wav     
     - type: finish
       name: Thank you
       content: Thank you for attending!
