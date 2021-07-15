@@ -1,5 +1,5 @@
-testname: webMUSHRA Example test
-testId: default_example
+testname: webMUSHRA test
+testId: 1
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -9,6 +9,56 @@ remoteService: service/write.php
 pages:
     - type: generic
       id: first_page
+      name: Welcome
+      content: Welcome to webMUSHRA!       
+    - type: mushra
+      id: trial1
+      name: MUSHRA
+      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/samples/S1-MTG.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/samples/S1-M19.wav
+          C2: configs/resources/samples/S1-M22D.wav
+          C3: configs/resources/samples/S1-M32B2300.wav
+          C4: configs/resources/samples/S1-M79Aanchor.wav
+          C5: configs/resources/samples/S1-M160B.wav
+          C6: configs/resources/samples/S1-M230.wav
+          C7: configs/resources/samples/S1-M450B300.wav
+          C8: configs/resources/samples/S1-M720D.wav
+          C9: configs/resources/samples/S1-MN.wav
+          
+    - type: finish
+      name: Thank you
+      content: Цаг гарган үнэлгээ хийж, хувь нэмрээ оруулсан танд баярлалаа!
+      showResults: true
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 30
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
+pages:
+    - type: generic
+      id: second_page
       name: Welcome
       content: Welcome to webMUSHRA!       
     - type: mushra
