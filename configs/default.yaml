@@ -30,6 +30,7 @@ pages:
           C7: configs/resources/samples/S1-M450B300.wav
           C8: configs/resources/samples/S1-M720D.wav
           C9: configs/resources/samples/S1-MN.wav
+          C10: configs/resources/samples/S1-test.wav
     - type: finish
       name: Thank you
       content: Цаг гарган үнэлгээ хийж, хувь нэмрээ оруулсан танд баярлалаа!
