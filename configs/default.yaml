@@ -22,14 +22,6 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/samples/S1-M19.wav
-          C2: configs/resources/samples/S1-M22D.wav
-          C3: configs/resources/samples/S1-M32B2300.wav
-          C4: configs/resources/samples/S1-M79Aanchor.wav
-          C5: configs/resources/samples/S1-M160B.wav
-          C6: configs/resources/samples/S1-M230.wav
-          C7: configs/resources/samples/S1-M450B300.wav
-          C8: configs/resources/samples/S1-M720D.wav
-          C9: configs/resources/samples/S1-MN.wav
           
     - type: finish
       name: Thank you
