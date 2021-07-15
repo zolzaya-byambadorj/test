@@ -17,12 +17,11 @@ pages:
       content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/samples/S1-MTG.wav
+      reference: configs/resources/samples/S1-test.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/samples/S1-M19.wav
-          C2: configs/resources/samples/S1-test.wav
+          C1: configs/resources/samples/S1-test.wav
     - type: finish
       name: Thank you
       content: Цаг гарган үнэлгээ хийж, хувь нэмрээ оруулсан танд баярлалаа!
